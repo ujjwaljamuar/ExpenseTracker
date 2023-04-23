@@ -101,7 +101,7 @@ const Layout = () => {
                     "price " + (transaction.price > 0 ? "green" : "red")
                   }
                 >
-                  {transaction.price}
+                  ₹{transaction.price}
                 </div>
                 <div className="datetime">{transaction.datetime}</div>
               </div>
